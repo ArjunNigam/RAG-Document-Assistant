@@ -1,0 +1,10 @@
+from frontend.ui import create_ui
+
+
+def main():
+    demo = create_ui()
+    demo.launch(share=True)
+
+
+if __name__ == "__main__":
+    main()
